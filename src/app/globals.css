@@ -19,3 +19,11 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* css để khi focus vào input thì border màu xanh */
+input:focus {
+  /* border-color: #3490dc; */
+  outline: none !important;
+  border-color: #3490dc;
+  box-shadow: 0 0 3px #3490dc;
+}
